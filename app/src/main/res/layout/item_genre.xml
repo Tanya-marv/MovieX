@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    app:cardBackgroundColor="@color/startColorGradient">
+
+    <TextView
+        android:id="@+id/cv_genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MovieX.TextAppearance.Body.Text.Headline"
+        android:hint="Genre"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/white"/>
+
+</androidx.cardview.widget.CardView>

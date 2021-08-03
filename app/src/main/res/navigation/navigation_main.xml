@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/introFragment">
+
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.example.moviex.presentation.screen.intro.IntroFragment"
+        android:label="IntroFragment"
+        tools:layout="@layout/fragment_intro" >
+        <action
+            android:id="@+id/actionIntroFragmentToAuthFragment"
+            app:destination="@id/authFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.example.moviex.presentation.screen.auth.AuthFragment"
+        android:label="AuthFragment"
+        tools:layout="@layout/fragment_auth" >
+        <action
+            android:id="@+id/actionAuthFragmentToHomeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.moviex.presentation.screen.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/actionHomeFragmentToAuthFragment"
+            app:destination="@id/authFragment" />
+        <action
+            android:id="@+id/actionHomeFragmentToDetailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.moviex.presentation.screen.details.DetailsFragment"
+        android:label="DetailsFragment" >
+        <argument
+            android:name="idMovie"
+            app:argType="long"
+            android:defaultValue="-1L"/>
+    </fragment>
+</navigation>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MovieX</string>
+    <string name="tv_email">Email</string>
+    <string name="tv_password">Password</string>
+    <string name="btn_sign_up">Sing Up with Email</string>
+    <string name="btn_log_out">Log Out</string>
+    <string name="btn_sign_up_with_facebook">Sing Up with Facebook</string>
+    <string name="btn_sign_up_with_google">Sing Up with Google</string>
+    <string name="facebook_app_id">214658280083259</string>
+    <string name="fb_login_protocol_scheme">fb214658280083259</string>
+    <string name="tv_popular_movie">Popular</string>
+    <string name="tv_top_rated">Top Rated</string>
+    <string name="tv_upcoming">Upcoming</string>
+</resources>

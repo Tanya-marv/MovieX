@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mi_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="search"
+        android:contentDescription="search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mi_favorite"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="favorite"
+        android:contentDescription="favorite"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mi_user"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="user"
+        android:contentDescription="user"
+        app:showAsAction="ifRoom" />
+</menu>
