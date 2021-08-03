@@ -1,6 +1,6 @@
 # MovieX 🎬
 
-A small app for viewing info about movies from TMDB. Written in Koltin.
+A small app for viewing info about movies from TMDB.
 
 ## Requirements
 
